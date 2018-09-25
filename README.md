@@ -30,13 +30,13 @@ I have done minimal preprocessing on the input reviews in the dataset following 
 Then I create the character set with a max sentence length of 512 chars and set an upper bound of 15 for the max number of sentences per review. The input X is indexed as (document, sentence, char) and the target y has the corresponding sentiments.
 
 ## Requirements:
-pandas 0.20.3
+  pandas 0.20.3
 
-tensorflow 1.4.0
+  tensorflow 1.4.0
 
-keras 2.0.8
+  keras 2.0.8
 
-numpy 1.14.0
+  numpy 1.14.0
 
 
 ## Execution:
