@@ -28,8 +28,11 @@ Then I create the character set with a max sentence length of 512 chars and set 
 
 ## Requirements:
 pandas 0.20.3
+
 tensorflow 1.4.0
+
 keras 2.0.8
+
 numpy 1.14.0
 
 ## Execution:
