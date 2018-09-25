@@ -2,7 +2,7 @@
 
 This repository contains an implementation of [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
 
-Hierarchical Attention Networks  consists of the following  parts:
+**Hierarchical Attention Networks**  consists of the following  parts:
 
 1. Embedding layer
 2. Word Encoder: word level bi-directional GRU to get rich representation of words
@@ -16,7 +16,7 @@ These models have 2 levels of attention: one at the word level and one at the se
 ![Hierarchical Attn Network](han.png)
 
 ## DataSet:
-I have used the IMDB Movies dataset from Kaggle, labeledTrainData.tsv which contains 25000 reviews with labels
+I have used the [IMDB Movies dataset from Kaggle](https://www.kaggle.com/c/word2vec-nlp-tutorial/data), labeledTrainData.tsv which contains 25000 reviews with labels
 
 ### Preprocessing on the Data:
 I have done minimal preprocessing on the input reviews in the dataset following these basic steps:
@@ -41,3 +41,6 @@ numpy 1.14.0
 
 ## Execution:
 python HierarchicalAttn.py
+
+## Results & Accuracy:
+
