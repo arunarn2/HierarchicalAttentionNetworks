@@ -18,7 +18,7 @@ These models have 2 levels of attention: one at the word level and one at the se
 ## DataSet:
 I have used the IMDB Movies dataset from Kaggle, labeledTrainData.tsv which contains 25000 reviews with labels
 
-Preprocessing on the Data:
+### Preprocessing on the Data:
 I have done minimal preprocessing on the input reviews in the dataset following these basic steps:
 
 Remove html tags
@@ -28,11 +28,8 @@ Then I create the character set with a max sentence length of 512 chars and set 
 
 ## Requirements:
 pandas 0.20.3
-
 tensorflow 1.4.0
-
 keras 2.0.8
-
 numpy 1.14.0
 
 ## Execution:
