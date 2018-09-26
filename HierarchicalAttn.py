@@ -25,7 +25,7 @@ validation_split = 0.2
 reviews = []
 labels = []
 texts = []
-GLOVE_DIR = "/Users/arunaneervannan/Documents/MCS-DS/glove.6B"
+glove_dir = "./glove.6B"
 embeddings_index = {}
 
 
@@ -135,7 +135,7 @@ print y_train.sum(axis=0)
 print y_val.sum(axis=0)
 
 
-f = open(os.path.join(GLOVE_DIR, 'glove.6B.100d.txt'))
+f = open(os.path.join(glove_dir, 'glove.6B.100d.txt'))
 for line in f:
     values = line.split()
     word = values[0]
