@@ -1,4 +1,4 @@
-# HierarchicalAttentionNetworks with Keras
+# HierarchicalAttentionNetworks 
 
 This repository contains an implementation of [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
 
@@ -58,17 +58,20 @@ Then I create the character set with a max sentence length of 512 chars and set 
     Returns:
         The Attention output `Tensor`.
             
-
 ## Requirements:
   1. pandas 0.20.3
   2. tensorflow 1.4.0
   3. keras 2.0.8
   4. numpy 1.14.0
 
-
-## Execution:
+## Implementation in Keras
+### Execution:
 python HierarchicalAttn.py
 
-## Results & Accuracy:
+### Results & Accuracy:
 
 ![Accuracy](han_output.png)
+
+## Implementation in Tensorflow
+### Execution:
+python HierarchicalAttn_tf.py
