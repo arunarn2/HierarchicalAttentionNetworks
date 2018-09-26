@@ -69,9 +69,11 @@ Then I create the character set with a max sentence length of 512 chars and set 
 python HierarchicalAttn.py
 
 ### Results & Accuracy:
-
 ![Accuracy](han_output.png)
 
 ## Implementation in Tensorflow
 ### Execution:
 python HierarchicalAttn_tf.py
+
+### Results & Accuracy:
+![Accuracy](han_tf_output.png)
