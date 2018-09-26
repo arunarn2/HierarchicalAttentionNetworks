@@ -31,23 +31,40 @@ Then I create the character set with a max sentence length of 512 chars and set 
 
 ## Attention Layer Implementation
 Attention mechanism layer which reduces RNN/Bi-RNN outputs with Attention vector (adapted from the paper).
+
         inputs: The Attention inputs.       
-            Matches outputs of RNN/Bi-RNN layer (not final state):            
+        
+            Matches outputs of RNN/Bi-RNN layer (not final state):    
+            
                 In case of RNN, this must be RNN outputs `Tensor`:
+                
                     If time_major == False (default), this must be a tensor of shape:
+                    
                         `[batch_size, max_time, cell.output_size]`.
+                        
                     If time_major == True, this must be a tensor of shape:
+                    
                         `[max_time, batch_size, cell.output_size]`.
+                        
                 In case of Bidirectional RNN, this must be a tuple (outputs_fw, outputs_bw) containing the forward and
                 the backward RNN outputs `Tensor`.
+                
                     If time_major == False (default),
+                    
                         outputs_fw is a `Tensor` shaped:
+                        
                         `[batch_size, max_time, cell_fw.output_size]`
+                        
                         and outputs_bw is a `Tensor` shaped:
+                        
                         `[batch_size, max_time, cell_bw.output_size]`.
+                        
                     If time_major == True,
+                    
                         outputs_fw is a `Tensor` shaped:
+                        
                         `[max_time, batch_size, cell_fw.output_size]`
+                        
                         and outputs_bw is a `Tensor` shaped:
                         `[max_time, batch_size, cell_bw.output_size]`.
         attention_size: Linear size of the Attention weights.
