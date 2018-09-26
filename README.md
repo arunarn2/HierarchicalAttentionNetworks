@@ -57,7 +57,6 @@ Then I create the character set with a max sentence length of 512 chars and set 
             Used for visualization purpose.
     Returns:
         The Attention output `Tensor`.
-    """
             
 
 ## Requirements:
