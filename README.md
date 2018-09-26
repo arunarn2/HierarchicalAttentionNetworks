@@ -30,7 +30,7 @@ I have done minimal preprocessing on the input reviews in the dataset following 
 Then I create the character set with a max sentence length of 512 chars and set an upper bound of 15 for the max number of sentences per review. The input X is indexed as (document, sentence, char) and the target y has the corresponding sentiments.
 
 ## Attention Layer Implementation
-    Attention mechanism layer which reduces RNN/Bi-RNN outputs with Attention vector ( adapted from the paper)
+    Attention mechanism layer which reduces Bi-RNN outputs with Attention vector (adapted from the paper)
     Args:
         inputs: The Attention inputs.             
                 In case of Bidirectional RNN, this must be a tuple (outputs_fw, outputs_bw) containing 
@@ -61,13 +61,10 @@ Then I create the character set with a max sentence length of 512 chars and set 
             
 
 ## Requirements:
-  pandas 0.20.3
-
-  tensorflow 1.4.0
-
-  keras 2.0.8
-
-  numpy 1.14.0
+  1. pandas 0.20.3
+  2. tensorflow 1.4.0
+  3. keras 2.0.8
+  4. numpy 1.14.0
 
 
 ## Execution:
