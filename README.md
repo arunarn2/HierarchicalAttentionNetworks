@@ -44,3 +44,4 @@ python HierarchicalAttn.py
 
 ## Results & Accuracy:
 
+![Accuracy](han_output.png)
