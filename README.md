@@ -1,6 +1,6 @@
 # HierarchicalAttentionNetworks 
 
-This repository contains an implementation of [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
+This repository contains an implementation of [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf) in keras and another implementation of the same network in tensorflow.
 
 **Hierarchical Attention Networks**  consists of the following  parts:
 
